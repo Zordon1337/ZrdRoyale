@@ -45,7 +45,7 @@ git clone https://github.com/Zordon1337/ZrdRoyale.git && cd ClashRoyale/src/Clas
 
 dotnet publish "ClashRoyale.csproj" -c Release -o app
 ```
-Run the server once to create the config.json file.
+Run the server once (```dotnet bin/Release/net8.0/ClashRoyale.dll```) to create the config.json file.
 
 To configurate your server, such as the database you have to edit the ```config.json``` file.
 
