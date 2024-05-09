@@ -27,10 +27,10 @@ Remake README.md
 ## Clash royale server for version 1.9.2/1.9.3 written in .NET
 
 
-## Battles
-The server supports battles, for those a patched client is neccessary.
+## How to patch the client?
+You will need to change the ip in the client to your own. Also the server supports battles, but to make them work a patch is necessary.
 
-[See the wiki for a tutorial](https://github.com/retroroyale/ClashRoyale/wiki/Patch-for-battles)
+[See the wiki for a tutorial](https://github.com/Zordon1337/ClashRoyale/wiki)
 
 ## How to start
 
