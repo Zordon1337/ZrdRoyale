@@ -51,7 +51,8 @@ To configurate your server, such as the database you have to edit the ```config.
 
 Then run the server again to start it: ```dotnet bin/Release/net8.0/ClashRoyale.dll```
 
-it should look like this: ![alt text](https://i.imgur.com/QKKW9QV.png)
+it should look like this: 
+![alt text](https://i.imgur.com/QKKW9QV.png)
 
 #### Run the server:
 
