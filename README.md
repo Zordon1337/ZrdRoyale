@@ -30,7 +30,7 @@ Remake README.md
 ## How to patch the client?
 You will need to change the ip in the client to your own. Also the server supports battles, but to make them work a patch is necessary.
 
-[See the wiki for a tutorial](https://github.com/Zordon1337/ClashRoyale/wiki)
+[See the wiki for a tutorial](https://github.com/Erder00/ZrdRoyale/wiki)
 
 ## How to start
 
