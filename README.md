@@ -49,6 +49,10 @@ Run the server once (```dotnet bin/Release/net8.0/ClashRoyale.dll```) to create 
 
 To configurate your server, such as the database you have to edit the ```config.json``` file.
 
+Then run the server again to start it: ```dotnet bin/Release/net8.0/ClashRoyale.dll```
+
+it should look like this: ![running server]([http://url/to/img.png](https://i.imgur.com/QKKW9QV.png))
+
 #### Run the server:
 
 ###### Main Server:
