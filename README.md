@@ -36,16 +36,18 @@ The server supports battles, for those a patched client is neccessary.
 ## How to start
 
 #### Requirements:
-  - [.NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+  - [.NET SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
   - MySql Database (on Debian i suggest LAMP with PMA or on windows i suggest XAMPP with PMA)
 
 for Ubuntu use these commands to set it up:
 ```
 mkdir ClashRoyale
-git clone https://github.com/retroroyale/ClashRoyale.git && cd ClashRoyale/src/ClashRoyale
+git clone https://github.com/Zordon1337/ZrdRoyale.git && cd ClashRoyale/src/ClashRoyale
 
 dotnet publish "ClashRoyale.csproj" -c Release -o app
 ```
+Run the server once to create the config.json file.
+
 To configurate your server, such as the database you have to edit the ```config.json``` file.
 
 #### Run the server:
@@ -64,4 +66,4 @@ To configurate your server, such as the database you have to edit the ```config.
 ```git pull && dotnet publish "ClashRoyale.Battles.csproj" -c Release -o app && dotnet app/ClashRoyale.Battles.dll```
 
 ## Need help?
-Contact me on Discord (Incredible#2109) or open an issue.
+Contact me on Telegram (https://t.me/TZordon) or open an issue.
