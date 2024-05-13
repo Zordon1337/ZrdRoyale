@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using ClashRoyale.Files;
@@ -18,19 +18,21 @@ namespace ClashRoyale.Logic.Home.Shop
         [JsonIgnore] public Home Home { get; set; }
         [JsonIgnore] public bool CanRefresh => Home.ShopDay != (int)DateTime.UtcNow.DayOfWeek;
         [JsonIgnore] public bool IsEpicSunday => DateTime.UtcNow.DayOfWeek == DayOfWeek.Sunday;
+        
+        public static bool enable_epic_sunday = false;
 
         public void Refresh()
         {
             Home.ShopDay = (int)DateTime.UtcNow.DayOfWeek;
             Clear();
 
-            /*if (IsEpicSunday)
+            if (IsEpicSunday && enable_epic_sunday)
             {
                 Add(RandomSpell(Card.Rarity.Rare));
                 Add(RandomSpell(Card.Rarity.Epic));
                 Add(RandomSpell(Card.Rarity.Legendary));
             }
-            else*/
+            else
             {
                 Add(RandomSpell(Card.Rarity.Common));
                 Add(RandomSpell(Card.Rarity.Common));
