@@ -1,7 +1,8 @@
-﻿using System;
+using System;
 using System.IO;
 using ClashRoyale.Logic.Battle;
 using ClashRoyale.Logic.Home;
+using ClashRoyale.Logic.Home.Shop;
 using Newtonsoft.Json;
 
 namespace ClashRoyale.Core
@@ -45,6 +46,7 @@ namespace ClashRoyale.Core
         [JsonProperty("DefaultGems")] public int DefGems;
         [JsonProperty("DefaultLevel")] public int DefLevel;
         [JsonProperty("use_udp")] public bool UseUdp;
+        [JsonProperty("enable_epic_sunday")] public bool enable_epic_sunday;
         [JsonProperty("BattleLog_WebhookUrl")] public string BL_Webhook;
         [JsonProperty("PlayerLog_WebhookUrl")] public string Plr_Webhook;
         [JsonProperty("ServerLog_WebhookUrl")] public string Srv_Webhook;
@@ -96,6 +98,7 @@ namespace ClashRoyale.Core
                     Srv_Webhook = config.Srv_Webhook;
                     Plr_Webhook = config.Plr_Webhook;
                     BL_Webhook = config.BL_Webhook;
+                    Shop.enable_epic_sunday = config.enable_epic_sunday;
                     admin1 = config.admin1;
                     admin2 = config.admin2;
                     admin3 = config.admin3;
