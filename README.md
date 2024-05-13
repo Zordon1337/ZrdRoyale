@@ -17,6 +17,7 @@ Minimum Trophies and Maximum Trophies after Win
 Default amount of gems and gold
 Gems and gold rewards after win
 Admins
+Enable or disable epic sunday
 ```
 
 # TODO ✅
